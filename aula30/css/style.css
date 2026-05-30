@@ -1,0 +1,15 @@
+body{
+    background-color: aliceblue;
+}
+.card-filme{
+    transition:0.3s ;
+    cursor: pointer;
+}
+.card-filme:hover{
+    transform: scale(1.03);
+}
+.card-filme img{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
